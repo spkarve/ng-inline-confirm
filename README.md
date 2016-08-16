@@ -1,5 +1,5 @@
 # ng-inline-confirm
-A simple, yet highly customisable AngularJS 1.x directive to display elegantly confirmation destructive and irreversible actions (like delete)
+A simple, yet highly customisable AngularJS 1.x directive to elegantly confirm destructive and irreversible actions (like delete), in an unobstrusive manner.
 
 ![Initial state](https://github.com/spkarve/ng-inline-confirm/blob/master/initial-state.png)
 ![Transition state](https://github.com/spkarve/ng-inline-confirm/blob/master/transition.png)
