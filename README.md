@@ -1,6 +1,9 @@
 # ng-inline-confirm
 A simple AngularJS 1.x directive to display an inline confirmation for potentially destructive actions (like delete)
 
+![Initial state](https://github.com/spkarve/ng-inline-confirm/blob/master/initial-state.png)
+![Transition state](https://github.com/spkarve/ng-inline-confirm/blob/master/transition.png)
+
 ##Context
 Do you still ask for confirmations using `alert()` ? *Hopefully not* ! Using modal confirmation dialogs instead ? *Better* !
 
