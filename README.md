@@ -5,6 +5,7 @@ A simple AngularJS 1.x directive to display an inline confirmation for potential
 
 ###Behaviour
 `if-confirmed` (required): Callback function for 'positive' outcome
+
 `if-reverted` (optional) : Callback function for 'negative' outcome
 `disable-if` (optional) : If specified, the referenced variable will be used to determine enable/disable state of the trigger button
 
