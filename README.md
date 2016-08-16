@@ -2,7 +2,9 @@
 A simple AngularJS 1.x directive to display an inline confirmation for potentially destructive actions (like delete)
 
 ##Context
-Do you still ask for confirmations using `alert()` ? *Hopefully not* ! Using modal confirmation dialogs instead ? *Better* ! That said, modal dialogs still require the user to do a context-switch. Also, it is commonly accepted that users involuntarily jump to do whatever it takes to dismiss the dialog, without reading through the message shown. This defeats the purpose of a *confirmation* step.
+Do you still ask for confirmations using `alert()` ? *Hopefully not* ! Using modal confirmation dialogs instead ? *Better* !
+
+That said, modal dialogs still require the user to do a context-switch. Also, it is commonly accepted that users involuntarily jump to do whatever it takes to dismiss the dialog, without reading through the message shown. This defeats the purpose of a *confirmation* step.
 
 As an elegant and (hopefully) effective alternative, I have created the inline-confirm.
 
