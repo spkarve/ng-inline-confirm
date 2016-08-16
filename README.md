@@ -1,8 +1,10 @@
 # ng-inline-confirm
-A simple AngularJS 1.x directive to display an inline confirmation for potentially destructive actions (like delete)
+A simple, yet highly customisable AngularJS 1.x directive to display elegantly confirmation destructive and irreversible actions (like delete)
 
 ![Initial state](https://github.com/spkarve/ng-inline-confirm/blob/master/initial-state.png)
 ![Transition state](https://github.com/spkarve/ng-inline-confirm/blob/master/transition.png)
+
+Note that the revert / cancel button is placed below the trigger, so an accidental double click never causes the confirmation step to be unintentionally skipped.
 
 ##Context
 Do you still ask for confirmations using `alert()` ? *Hopefully not* ! Using modal confirmation dialogs instead ? *Better* !
