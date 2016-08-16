@@ -3,4 +3,4 @@ A simple AngularJS 1.x directive to display an inline confirmation for potential
 
 Options:
 
-'inline-confirm-trigger' Add styling on this class
+`inline-confirm-trigger` Add styling on this class
