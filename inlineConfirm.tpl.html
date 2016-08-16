@@ -1,0 +1,24 @@
+<!-- INTITIAL STATE -->
+<span data-ng-show='!confirming'>
+	<button
+		class="btn btn-default inline-confirm-trigger borderless {{attr.btnSize ? 'btn-' + attr.btnSize : ''}} {{attr.class ? attr.class : ''}}"
+		title='Delete' data-ng-click='transition()' data-ng-disabled='{{disableIf}}'>
+		<i class="{{attr.triggerIcon ? attr.triggerIcon : 'fa fa-trash-o'}}"></i>
+		<span data-ng-if='attr.triggerText' data-ng-bind='attr.triggerText'></span>
+	</button>
+</span>
+
+<!-- CONFIRMING STEP -->
+<span data-ng-show='confirming'>
+	<input type='text' data-ng-if='inputText' data-ng-model='inputText' />
+	<button class="btn btn-default inline-confirm-no borderless {{attr.btnSize ? 'btn-' + attr.btnSize : ''}} {{attr.class ? attr.class : ''}}"
+		title='Back' data-ng-click='confirmed(false)'>
+		<i class="{{attr.revertIcon ? attr.revertIcon : 'fa fa-undo'}}"></i>
+		<span data-ng-if='attr.revertText' data-ng-bind='attr.revertText'></span>
+	</button>
+	<button class="btn btn-default inline-confirm-yes borderless {{attr.btnSize ? 'btn-' + attr.btnSize : ''}} {{attr.class ? attr.class : ''}}"
+		title='Delete' style='margin-left: 5px;' data-ng-click='confirmed(true)'>
+		<i class="{{attr.confirmIcon ? attr.confirmIcon : 'fa fa-check'}}"></i>
+		<span data-ng-if='attr.confirmText' data-ng-bind='attr.confirmText'></span>
+	</button>
+</span>
