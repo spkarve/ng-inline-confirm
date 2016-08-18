@@ -1,8 +1,7 @@
 # ng-inline-confirm
 A simple, yet highly customisable AngularJS 1.x directive to elegantly confirm destructive and irreversible actions (like delete), in an unobstrusive manner.
 
-![Initial state](https://github.com/spkarve/ng-inline-confirm/blob/master/initial-state.png)
-![Transition state](https://github.com/spkarve/ng-inline-confirm/blob/master/transition.png)
+![Illustration](https://github.com/spkarve/ng-inline-confirm/blob/master/illustration-01.png)
 
 Note that the revert / cancel button is placed below the trigger, so an accidental double click never causes the confirmation step to be unintentionally skipped.
 
