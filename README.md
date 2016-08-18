@@ -19,6 +19,14 @@ Discussions that inspired me to author this component:
 
 [http://ux.stackexchange.com/questions/74405/should-a-delete-actions-undo-be-underneath-the-delete?noredirect=1&lq=1](http://ux.stackexchange.com/questions/74405/should-a-delete-actions-undo-be-underneath-the-delete?noredirect=1&lq=1)
 
+##Installation
+
+* Just drop the two files into any appropriate folder in your project.
+* Edit the module name in the JS file to whatever suits you
+* Make sure the module is listed as a dependency at the appropriate point of use
+
+That's it !
+
 ##Options
 
 ###Behaviour
