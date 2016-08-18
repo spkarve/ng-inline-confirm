@@ -27,6 +27,10 @@ Discussions that inspired me to author this component:
 
 That's it !
 
+##Working example
+
+_Coming soon_
+
 ##Options
 
 ###Behaviour
